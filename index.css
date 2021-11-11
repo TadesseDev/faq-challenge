@@ -11,3 +11,16 @@ body {
   );
   background-repeat: no-repeat;
 }
+
+.container {
+  background-color:white;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container > h1 {
+  text-align: center;
+}
+.container > div {
+  padding: 10px;
+}
