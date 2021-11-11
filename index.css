@@ -1,9 +1,13 @@
-body {
-    padding: 0;
-    margin: 0;
-    background: linear-gradient(0deg, rgba(100,98,231,1) 0%, rgba(173,104,233,1) 100%);
-    background-repeat: no-repeat;
+html {
+  min-height: 100%;
 }
-
-
-
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(100, 98, 231, 1) 0%,
+    rgba(173, 104, 233, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
