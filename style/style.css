@@ -1,0 +1,71 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(#6462e7), to(#ad68e9));
+  background: linear-gradient(0deg, #6462e7 0%, #ad68e9 100%);
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90vw;
+  height: 70vh;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-transform: translate(5%, 25%);
+          transform: translate(5%, 25%);
+}
+
+.content {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  padding: 10px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.pictureCnotainer {
+  position: absolute;
+  height: 45%;
+}
+
+.pictureCnotainer .mainImage {
+  margin-top: -45%;
+  height: 80%;
+  width: auto;
+}
+
+.pictureCnotainer .mainImage img {
+  width: auto;
+  height: 100%;
+}
+
+.pictureCnotainer .shadowImage {
+  height: 100%;
+  margin-top: -90px;
+  margin-left: 6px;
+}
+
+.pictureCnotainer .shadowImage img {
+  width: auto;
+  height: 43%;
+}
+/*# sourceMappingURL=style.css.map */

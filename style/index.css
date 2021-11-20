@@ -13,14 +13,17 @@ body {
 }
 
 .container {
-  background-color:white;
-  border-radius: 8px;
-  margin-left: 10px;
-  margin-right: 10px;
+  position: absolute;
+  width: 90vw;
+  height: 70vh;
+  background-color: white;
+  border-radius: 15px;
+  transform: translate(5%, 20%);
 }
-.container > h1 {
+.container h1 {
   text-align: center;
 }
-.container > div {
+.container div {
   padding: 10px;
+  background-color: red;
 }
