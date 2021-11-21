@@ -1,12 +1,12 @@
 import * as func from "./functions.js";
 $(document).ready(() => {
     let dt = $('.content dt');
-    // let dtt = document.getElementsByClassName("content")[0].getElementsByTagName("dt")[0];
-    // dtt.addEventListener("click", (this) => { console.log(this) });
     dt.on("click", (x) => {
-        console.log($(this));
-        ele.css({ "color": "red" });
+        let element = $(x.target);
+        element.css({ "font-weight": "700" });
     });
-    // dt.css({ "color": "red" });
-    func.printValue(dt);
+    dt.on("mouseleave", (x) => {
+        let element = $(x.target);
+        dt.css({ "font-weight": "400" })
+    })
 });
