@@ -21,11 +21,20 @@ body {
 .container > h1 {
   text-align: center;
 }
-.container > div {
+.container > dl {
   padding: 10px;
+}
+dt span {
+  float: right;
+  color: #c88873;
 }
 .container dd {
   margin-left: 5px;
   position: absolute;
   display: none;
+}
+
+.active {
+  font-weight: 1000;
+  /* font-size: ; */
 }
