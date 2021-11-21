@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  background-color:white;
+  background-color: white;
   border-radius: 8px;
   margin-left: 10px;
   margin-right: 10px;
@@ -23,4 +23,9 @@ body {
 }
 .container > div {
   padding: 10px;
+}
+.container dd {
+  margin-left: 5px;
+  position: absolute;
+  display: none;
 }
