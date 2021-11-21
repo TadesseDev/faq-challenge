@@ -8,6 +8,8 @@ body {
   background: -webkit-gradient(linear, left bottom, left top, from(#6462e7), to(#ad68e9));
   background: linear-gradient(0deg, #6462e7 0%, #ad68e9 100%);
   background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 .container {
@@ -20,11 +22,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 90vw;
-  height: 70vh;
   background-color: white;
-  border-radius: 15px;
-  -webkit-transform: translate(5%, 25%);
-          transform: translate(5%, 25%);
+  border-radius: 25px;
+  margin-top: 130px;
+  margin-left: 5vw;
+  padding-bottom: 20px;
 }
 
 .content {
@@ -33,22 +35,48 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  width: 100%;
-  padding: 10px;
+  width: 90%;
+  margin-left: 5%;
   border-radius: 0px 0px 15px 15px;
+  font-size: 0.9em;
+}
+
+.content dt {
+  margin: 10px 0px;
+}
+
+.content dd {
+  font-size: 0.8em;
+  margin-left: 5px;
+  width: 90%;
+}
+
+.content dt:after {
+  content: "v";
+  float: right;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  height: 50%;
+  color: #ce826c;
 }
 
 .content h1 {
+  font-size: 1.7em;
   text-align: center;
+  padding: 2vh 0px;
+}
+
+.content hr {
+  border-top: 0.5px solid #f0efef;
+  margin: 20px 0px;
 }
 
 .pictureCnotainer {
-  position: absolute;
-  height: 45%;
+  margin-top: -100px;
 }
 
 .pictureCnotainer .mainImage {
-  margin-top: -45%;
   height: 80%;
   width: auto;
 }
@@ -56,12 +84,13 @@ body {
 .pictureCnotainer .mainImage img {
   width: auto;
   height: 100%;
+  min-height: 167.516px;
+  max-height: 267.516px;
 }
 
 .pictureCnotainer .shadowImage {
-  height: 100%;
-  margin-top: -90px;
-  margin-left: 6px;
+  margin-top: -70px;
+  margin-left: -10px;
 }
 
 .pictureCnotainer .shadowImage img {
